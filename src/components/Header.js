@@ -31,37 +31,23 @@ function Header(){
                 <li class="nav-item item">
                 <a class="nav-link" href="#">Projects</a>
                 </li>
-                <li class="nav-item icon">
-                <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <li class="nav-item icon mb-2">
+                <a class="nav-link" href="https://www.facebook.com/ayyaallii?mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
                 </li>
-                <li class="nav-item icon">
-                <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <li class="nav-item icon mb-2">
+                <a class="nav-link" href="https://www.linkedin.com/in/aya-ali-624112242/"><i class="fa-brands fa-linkedin-in"></i></a>
                 </li>
-                <li class="nav-item icon">
-                <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <li class="nav-item icon mb-2">
+                <a class="nav-link" href="https://www.instagram.com/ayaa_allii"><i class="fa-brands fa-instagram"></i></a>
                 </li>
                 <li class="nav-item connectbtn">
-                <a class="nav-link" href="#">Let's Connect</a>
+                <a class="nav-link" href="https://www.linkedin.com/in/aya-ali-624112242/">Let's Connect</a>
                 </li>
             </ul>
             </span>
             </div>
         </div>
         </nav>
-        <div className="part2">
-            <div class = "static-txt">
-                Hi,
-            </div>
-            <div class = "static-txt">
-                I'm Aya,
-            </div>
-            <ul className="dynamic-txt">
-                <li><span>Web Developer </span></li>
-            </ul>
-        </div>
-        <div className="part3">
-            
-        </div>
         </div>
         </>
     )
