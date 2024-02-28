@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Caveat;
+    src: url("../assests/Caveat-Regular.woff2") format("woff2");
+  }
+.All {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #292b37;
+}
+.container {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background: linear-gradient(to right,  #292b37, #d06caba6,#292b37);
+    display: grid;
+    place-items: center;
+    border-radius: 10%;
+    box-shadow: 0px 0px 13px #f0b0d8;
+}
+.slidesContainer {
+    width: 100%;
+    height: 100%;
+    padding: 11%;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.slide {
+    width: 28% !important;
+    height: 100%;
+    text-align: center;
+    background-color: #292b37;
+    border-radius: 10%;
+}
+.header{
+    color: white;
+    font-family: Caveat;
+    font-size: 40px;
+}
+.swiper-button-prev , .swiper-button-next{
+    color: white !important;
+    margin-top: -8%;
+}
+.swiper-pagination-bullet{
+    background-color: white !important;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px #4e5166;
+    border-radius: 50%;
+}
+.inner{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0 ,0 ,0,0.2),
+                inset -4px -4px 6px -1px #353742,
+                -0.5px -0.5px 0px #16171d,
+                0.5px 0.5px 0px #3e4153;
+    border-radius: 50%;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+.C2 , .C4{
+    animation: anim2 2s linear forwards;
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 90;
+    }
+}
+.C3{
+    animation: anim3 2s linear forwards;
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 120;
+    }
+}
+svg{
+    position: absolute;
+}
+
+#number{
+    color: white;
+    font-size: 25px;
+    margin-top: 30%;
+}
+.skill{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+}
