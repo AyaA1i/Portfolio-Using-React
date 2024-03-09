@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Caveat;
+    src: url("../assests/Caveat-Regular.woff2") format("woff2");
+  }
+.Allprojects{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #292b37;
+    min-height: fit-content;
+}
+.Header{
+    color: white;
+    padding-top: 5%;
+    font-family: Caveat;
+    font-size: 40px;
+    text-align: center;
+}
+.projects{
+    margin-top: 3%;
+}
+.col{
+    margin-bottom: 2%;
+    
+}
+.card{
+    width: 90% !important;
+    height: 100% !important;
+}
+.card-img-overlay{
+    margin: auto;
+    text-align: center;
+    background-color: #292b377c;
+    font-size: 13px;
+}
+.seemorebtn{
+    background-color: #bc94f9 !important;
+    border: none !important;
+    border-radius: 16px;
+
+}
+.seemorebtn :hover{
+    color: white !important;
+}
+.seemorebtn a{
+    text-decoration: none;
+    color: #292b37;
+}
