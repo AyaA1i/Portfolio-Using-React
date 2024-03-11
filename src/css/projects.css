@@ -26,6 +26,7 @@
 .card{
     width: 90% !important;
     height: 100% !important;
+    cursor: pointer;
 }
 .card-img-overlay{
     margin: auto;
@@ -45,4 +46,11 @@
 .seemorebtn a{
     text-decoration: none;
     color: #292b37;
+}
+.card-img-overlay{
+    transition: 1s;
+    opacity: 0;
+}
+.card:hover .card-img-overlay{
+    opacity: 1;
 }
