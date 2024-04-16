@@ -10,9 +10,6 @@ import pic4 from "../media/p4.jpg";
 import pic5 from "../media/p5.jpg";
 import pic6 from "../media/pic6.jpg";
 
-
-
-
 function Projects(){
     return(
         <div className="Allprojects">
